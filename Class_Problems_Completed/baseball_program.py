@@ -6,9 +6,11 @@ Created on Tue Jun  4 16:14:33 2024
 """
 
 def separator():
+    
     print("=" * 60)
     
 def title():
+    
     print("\t\t\t\t\tBaseball Team Manager")
     
 def menu():
@@ -17,6 +19,22 @@ def menu():
     print("2 - Exit program")
     
 def batting_average(bats, hits):
+    """
+    Calculates batting average.
+
+    Parameters
+    ----------
+    bats : int
+        Official number of at bats.
+    hits : int
+        Number of hits
+
+    Returns
+    -------
+    average : float
+        Batting average
+
+    """
     average = hits / bats
     return average
 
