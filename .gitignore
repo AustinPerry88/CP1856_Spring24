@@ -1,4 +1,6 @@
 
 *.bak
 /.spyproject
-*.pyc
+/Assignment1
+/Tests
+/Assignment 2
